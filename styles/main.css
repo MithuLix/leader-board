@@ -1,0 +1,151 @@
+/* navbar start */
+body {
+    background-color: #f1f1f1;
+}
+.navbar {
+    height: 70px;
+    margin: 0%;
+    padding: 0%;
+    background-color: #562EFF;
+}
+.navbar img {
+    width: 40px;
+}
+.navbar-brand {
+    margin-left: 45%;
+}
+.navbar-nav .text {
+    margin-top:25px;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #ffffff !important;
+    padding: 0 1rem !important;
+}
+.navbar-nav img {
+    margin-top: 10px;
+}
+
+/* navbar end */
+
+
+
+/* top-player */
+.top-player {
+    margin: 6% 0 0 17%;
+    width: 900px;
+    min-height: 600px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+.top-player h1 {
+    margin: 1rem 0 2rem 0;
+    padding: 1.5rem 0 0 1.5rem;
+    font-weight: 500;
+    font-size: 24px;
+    color: #562EFF;
+}
+.top-player .grid-1 {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left:10%;
+}
+.top-player .grid-1 .profile {
+    padding: .3rem 0;
+}
+.top-player .grid-1 img {
+    width: 56px;
+}
+.top-player .grid-1 p {
+    display: inline;
+    margin-left: .5rem;
+    font-weight: 500;
+}
+hr{
+    width: 80%;
+}
+
+/* top-player end */
+
+
+/* top-blog */
+.top-blog  h1 {
+    margin: 1rem 0 2rem 0;
+    padding: 1.5rem 0 0 1.5rem;
+    font-weight: 500;
+    font-size: 24px;
+    color: #562EFF;
+}
+.top-blog .grid-2 {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left:10%;
+}
+.top-blog .grid-2 img {
+    width: 120px;
+    height: 100px;
+    margin-right: 1rem;
+}
+/* top-blog end */
+
+
+/* late-courses */
+.late-courses {
+    margin: 0 0 2% 17%;
+    width: 900px;
+    min-height: 500px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+.late-courses h1{
+    margin: 1rem 0 2rem 0;
+    padding: 1.5rem 0 0 1.5rem;
+    font-weight: 500;
+    font-size: 24px;
+    color: #562EFF;
+}
+.late-courses .grid-3 {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(3, 240px);
+    margin-left: 5%;
+}
+.late-courses .courses {
+    padding: .5rem;
+    border-radius: 1rem;
+    background-color: #ffffff;
+    box-shadow: .2rem .2rem .3rem #d6d6d6,
+            -.2rem -.2rem .3rem #d6d6d6;
+}
+.late-courses .grid-3 img {
+    width: 224px;
+    height: 104px;
+    margin-bottom: 1rem;
+}
+
+.late-courses .grid-3 button {
+    padding: 0%;
+    margin: 0%;
+    width: 95px;
+    height: 30px;
+    font-size: .9rem;
+    border-radius: 2rem;
+    color: #ff0000;
+    background-color: #ffe3e2;
+    border: none;
+}
+.late-courses .grid-3 .courses:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.late-courses .grid-3 button img {
+    margin: 0%;
+    width: 20px;
+    height: 20px;
+}
+footer {
+    margin: 6rem 0 ;
+    text-align: center;
+    color: #797979;
+}
